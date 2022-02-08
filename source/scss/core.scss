@@ -1,0 +1,43 @@
+img {
+  width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: $main-font;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  background-color: $second-color;
+}
+
+.container {
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
