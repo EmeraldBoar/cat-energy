@@ -1,0 +1,40 @@
+.logo {
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 11px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid #e6e6e6;
+
+  @media (min-width: $table-width) {
+    height: 52px;
+    padding: 0;
+    border: none;
+  }
+}
+
+.logo__link:nth-child(1) {
+  @media (min-width: $table-width) {
+    margin-right: 15px;
+  }
+}
+
+.logo__link:nth-child(2) {
+  margin: 0 auto;
+  transform: translateX(-10px);
+
+  @media (min-width: $table-width) {
+    margin: 0;
+    transform: none;
+  }
+}
+
+.logo__link:hover,
+.logo__link:focus {
+  opacity: 0.8;
+}
+
+.logo__link:active {
+  opacity: 0.6;
+}
