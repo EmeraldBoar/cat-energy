@@ -8,7 +8,7 @@
   background-size: auto, 100% 302px, auto;
 
   @media (min-width: $table-width) {
-    min-height: 872px;
+    min-height: 870px;
     padding-top: 60px;
     background-image: url("../img/image-cap-hero-tablet.png");
     background-position: center 261px;
@@ -34,9 +34,14 @@
   min-height: 452px;
 
   @media (min-width: $table-width) {
-    width: 420px;
+    width: 501px;
+    padding-left: 82px;
     min-height: auto;
     align-items: flex-start;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-left: 0;
   }
 }
 
