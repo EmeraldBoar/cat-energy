@@ -14,6 +14,10 @@
   }
 }
 
+.logo__link {
+  transition: opacity 300ms;
+}
+
 .logo__link:nth-child(1) {
   @media (min-width: $table-width) {
     margin-right: 15px;

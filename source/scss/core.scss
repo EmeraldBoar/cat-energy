@@ -40,4 +40,38 @@ body {
 .container {
   margin: 0 auto;
   padding: 0 20px;
+
+  @media (min-width: $table-width) {
+    padding: 0 30px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 1440px;
+    padding: 0 110px;
+  }
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 40px;
+  padding: 10px;
+  color: $second-color;
+  font-family: $second-font;
+  border: none;
+  background-color: $main-color;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 300ms, color 300ms;
+
+  &:hover,
+  &:focus {
+    background-color: #5eaa2f;
+  }
+
+  &:active {
+    color: rgba($second-color, 0.3);
+  }
 }
