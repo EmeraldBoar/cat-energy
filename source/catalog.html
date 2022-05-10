@@ -2,53 +2,63 @@
 <html class="html" lang="ru">
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <title>Каталог</title>
   </head>
   <body class="body">
     <header class="page-header">
-      <div class="container">
+      <div class="page-header__container">
         <div class="page-header__logo logo">
-          <svg class="logo__icon" width="35" height="38" viewBox="0 0 35 38" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <g clip-path="url(#clip0_153_300)">
-            <path d="M6.91078 20.72V18.46C13.5944 17.5423 20.3345 17.0979 27.0808 17.13C27.0808 17.73 27.0808 18.34 27.0208 18.95C28.9384 18.099 30.9536 17.4877 33.0208 17.13C31.7033 13.722 29.3025 10.8412 26.1879 8.93086C23.0732 7.02051 19.4172 6.1864 15.7822 6.55683C12.1472 6.92726 8.73456 8.48172 6.06929 10.9811C3.40402 13.4804 1.63374 16.7863 1.03078 20.39L6.91078 20.72Z" fill="#FDC305"/>
-            <path d="M28.0808 24.23C26.9208 25.51 26.6908 25.43 26.6908 27.68C26.6908 28.59 26.6908 32.58 26.6908 36.86C28.9833 35.346 30.8653 33.2879 32.1688 30.8694C33.4722 28.4509 34.1566 25.7474 34.1608 23C34.1476 21.9591 34.0405 20.9216 33.8408 19.9C31.769 21.1295 29.8375 22.5814 28.0808 24.23Z" fill="#FDC305"/>
-            <path d="M7.20077 25.72C7.20077 25.72 3.41077 24.28 2.01077 23.89C1.62784 23.7693 1.23687 23.6757 0.840775 23.61C0.94917 26.496 1.80636 29.3041 3.32816 31.7586C4.84996 34.2131 6.98403 36.2296 9.52077 37.61L7.20077 25.72Z" fill="#FDC305"/>
-            <path d="M27.1308 17.12C27.1714 11.5986 26.7028 6.08529 25.7308 0.650004C25.7308 0.650004 25.5908 -0.639996 24.8408 0.410004C24.2517 1.65814 23.8474 2.98539 23.6408 4.35C19.3826 4.07577 15.1083 4.18958 10.8708 4.69C10.0808 2 8.69078 0.750004 8.02078 1C7.35078 1.25 7.30078 4.31 7.30078 4.31L6.97078 18.41C13.652 17.506 20.3888 17.0749 27.1308 17.12Z" fill="#F06351"/>
-            <path d="M13.2508 14C13.2508 13.91 14.2508 14.68 14.6608 14.92C15.0708 15.16 15.2708 15.34 15.2708 15.51C15.2708 15.68 15.0008 15.85 14.6408 15.85C14.2808 15.85 13.7308 15.73 13.6408 15.58H14.5808H14.8708C14.2615 15.1294 13.7165 14.5978 13.2508 14Z" fill="black"/>
-            <path d="M20.7308 14.11L19.6408 15.44C19.6408 15.5 19.4708 15.79 19.8208 15.74C20.235 15.6783 20.6431 15.5812 21.0408 15.45C21.1508 15.45 21.1108 15.26 20.9308 15.28C20.7508 15.3 20.2408 15.33 19.9308 15.39L20.7708 14.13C20.7708 14.13 20.8408 14 20.7308 14.11Z" fill="black"/>
-            <path d="M17.5908 20.2C18.0543 19.9958 18.4375 19.6443 18.6808 19.2C18.9608 18.55 18.6808 18.29 18.2408 18.2C17.6387 18.0902 17.0173 18.2116 16.5008 18.54C16.1108 18.9 16.1608 19.26 16.4508 19.54C16.8021 19.8062 17.185 20.0279 17.5908 20.2Z" fill="black"/>
-            <path d="M17.1908 21.45C17.0787 21.6785 16.9224 21.8825 16.7308 22.05C16.446 22.2791 16.0959 22.4122 15.7308 22.43C15.2046 22.472 14.6814 22.3189 14.2608 22C14.063 21.8808 13.8844 21.7324 13.7308 21.56C13.6303 21.4491 13.5076 21.3605 13.3708 21.3C13.3708 21.3 14.1208 25.4 15.9408 26.05C17.7608 26.7 18.0808 25.3 18.1408 24.92C18.2009 23.7851 17.915 22.6588 17.3208 21.69C17.3008 21.38 17.2908 21.58 17.1908 21.45Z" fill="#F06351"/>
-            <path d="M15.5508 22.59C15.0861 22.5247 14.6397 22.3651 14.239 22.1209C13.8383 21.8767 13.4918 21.5531 13.2208 21.17C13.2075 21.157 13.1969 21.1414 13.1897 21.1242C13.1825 21.1071 13.1788 21.0886 13.1788 21.07C13.1788 21.0514 13.1825 21.0329 13.1897 21.0158C13.1969 20.9986 13.2075 20.983 13.2208 20.97C13.2338 20.9567 13.2494 20.9461 13.2665 20.9389C13.2837 20.9317 13.3021 20.928 13.3208 20.928C13.3394 20.928 13.3578 20.9317 13.375 20.9389C13.3922 20.9461 13.4077 20.9567 13.4208 20.97C13.9255 21.6642 14.6837 22.1313 15.5308 22.27C15.8624 22.245 16.1834 22.1413 16.4669 21.9674C16.7504 21.7934 16.9882 21.5544 17.1608 21.27L17.3008 21.08L17.4008 21.29C17.4008 21.29 17.7708 22.05 18.4008 22.09C19.0308 22.13 19.4508 21.68 20.0108 20.81C20.0238 20.7967 20.0394 20.7861 20.0565 20.7789C20.0737 20.7717 20.0921 20.768 20.1108 20.768C20.1294 20.768 20.1478 20.7717 20.165 20.7789C20.1822 20.7861 20.1977 20.7967 20.2108 20.81C20.2431 20.8306 20.2663 20.8629 20.2756 20.9C20.2849 20.9372 20.2796 20.9766 20.2608 21.01C19.6208 22.01 18.9908 22.45 18.3808 22.41C18.1488 22.3763 17.9274 22.2903 17.7334 22.1587C17.5394 22.0271 17.3778 21.8531 17.2608 21.65C17.0641 21.9245 16.8084 22.1514 16.5125 22.3141C16.2165 22.4767 15.8879 22.571 15.5508 22.59Z" fill="black"/>
-            <path d="M27.0808 18.92C25.2852 20.5437 23.592 22.277 22.0108 24.11C20.4394 25.9361 18.6646 27.5768 16.7208 29C16.5008 28.47 15.1008 27.49 15.1008 27.49C15.1008 27.49 11.9708 25.35 9.92078 23.67C8.81492 22.7373 7.76947 21.7353 6.79078 20.67L4.79078 20.56C7.68095 24.7655 11.911 27.8676 16.7908 29.36C17.6508 29.22 20.0608 27.5 21.8608 26.1C23.9797 24.2819 25.9648 22.3134 27.8008 20.21C28.3033 19.621 28.69 18.9425 28.9408 18.21C27.8408 18.6 27.0808 18.92 27.0808 18.92Z" fill="#F06351"/>
-            </g>
-            <defs>
-            <clipPath id="clip0_153_300">
-            <rect width="33.32" height="37.61" fill="white" transform="translate(0.840775)"/>
-            </clipPath>
-            </defs>
-          </svg>
-          <svg class="logo__text" width="102" height="19" viewBox="0 0 102 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <g clip-path="url(#clip0_135_3364)">
-            <path d="M1.42527 17.3435C0.530332 16.0812 0.0860778 14.5677 0.160792 13.0358V6.65115C0.0524166 5.10273 0.468853 3.56245 1.34624 2.26653C2.21557 1.26653 3.55907 0.804993 5.53481 0.804993C7.51056 0.804993 8.77503 1.26653 9.56533 2.11269C10.4233 3.1844 10.8454 4.52635 10.7508 5.88192V7.42038H6.87832V5.65115C6.9096 5.12788 6.82886 4.60399 6.64123 4.11269C6.54094 3.91437 6.38198 3.74979 6.18481 3.64012C5.98764 3.53046 5.76127 3.48072 5.53481 3.4973C4.98161 3.4973 4.58646 3.65115 4.4284 4.03576C4.24962 4.58232 4.1694 5.15488 4.19131 5.72807V13.9588C4.14957 14.515 4.25858 15.072 4.50743 15.5742C4.66549 15.9588 5.06064 16.1127 5.61384 16.1127C6.16705 16.1127 6.48317 15.9588 6.64123 15.5742C6.82091 15.0544 6.90127 14.5069 6.87832 13.9588V12.1127H10.7508V13.6511C10.8311 15.0288 10.4116 16.3902 9.56533 17.4973C8.77503 18.4204 7.43153 18.8819 5.53481 18.8819C3.6381 18.805 2.21557 18.3435 1.42527 17.3435Z" fill="#111111"/>
-            <path d="M15.4135 1.03577H19.9182L23.2375 18.5742H19.6021L18.9699 14.8819H16.3619L15.7296 18.5742H12.0152L15.4135 1.03577ZM18.6537 12.5742L17.7054 5.72807L16.757 12.5742H18.6537Z" fill="#111111"/>
-            <path d="M26.0035 3.95884H23.3165V1.03577H32.721V3.88192H30.034V18.5742H26.0035V3.95884Z" fill="#111111"/>
-            <path d="M39.9127 1.03577H46.8674V2.88192H42.3627V8.65115H45.998V10.4204H42.3627V16.8819H46.8674V18.6512H39.8337V1.03577H39.9127Z" fill="#111111"/>
-            <path d="M48.9221 1.03577H50.6608L55.7977 12.6512V1.03577H57.8525V18.5742H56.2719L51.0559 6.57423V18.5742H48.9221V1.03577Z" fill="#111111"/>
-            <path d="M60.2234 1.03577H67.178V2.88192H62.6733V8.65115H66.3087V10.4204H62.6733V16.8819H67.178V18.6512H60.2234V1.03577Z" fill="#111111"/>
-            <path d="M69.2328 1.03577H72.8682C74.2982 0.939617 75.7194 1.31935 76.8987 2.11269C77.768 2.805 78.1631 4.03577 78.1631 5.65115C78.1631 7.88192 77.4519 9.26654 75.9503 9.72808L78.4793 18.4973H76.0293L73.6585 10.2665H71.6827V18.4973H69.1538V1.03577H69.2328ZM72.7101 8.57423C73.5248 8.63958 74.3369 8.42152 75.002 7.95885C75.4761 7.57423 75.7132 6.805 75.7132 5.65115C75.7351 5.07796 75.6549 4.5054 75.4761 3.95885C75.2983 3.56666 74.9928 3.2423 74.6068 3.03577C74.0625 2.79434 73.465 2.6886 72.8682 2.72808H71.7617V8.49731H72.7101V8.57423Z" fill="#111111"/>
-            <path d="M81.3243 17.2665C80.5028 15.9216 80.1172 14.3666 80.2179 12.805V6.95884C80.1984 5.8441 80.3313 4.73179 80.613 3.65115C80.8775 2.84362 81.4045 2.14167 82.1146 1.65115C82.997 1.14274 84.015 0.901726 85.0387 0.958841C86.6983 0.958841 87.8838 1.34346 88.595 2.18961C89.4132 3.30691 89.8046 4.66737 89.7015 6.03576V6.65115H87.3306V6.11269C87.3341 5.46845 87.2813 4.8251 87.1725 4.18961C87.1059 3.78803 86.8785 3.42848 86.5403 3.18961C86.0961 2.90582 85.5689 2.77078 85.0387 2.80499C84.472 2.76965 83.9112 2.93343 83.4581 3.26653C83.2722 3.41901 83.1203 3.60681 83.0115 3.81844C82.9028 4.03007 82.8396 4.26107 82.8259 4.4973C82.7217 5.18498 82.6689 5.87911 82.6678 6.57423V13.1127C82.6095 14.1088 82.7712 15.1056 83.142 16.0358C83.4581 16.6511 84.0903 16.8819 85.0387 16.8819C85.4131 16.9273 85.793 16.8639 86.1305 16.6997C86.468 16.5354 86.7481 16.2777 86.9354 15.9588C87.353 14.9861 87.542 13.9349 87.4886 12.8819V11.6511H85.1968V9.88192H89.7805V18.5742H88.1999L87.9628 16.5742C87.7556 17.2445 87.3242 17.8281 86.7371 18.2323C86.15 18.6365 85.4409 18.8381 84.7226 18.805C84.0696 18.8424 83.4172 18.7214 82.8241 18.4529C82.231 18.1844 81.7156 17.7767 81.3243 17.2665V17.2665Z" fill="#111111"/>
-            <path d="M94.8384 12.4204L90.9659 1.11269H93.3368L96.1029 9.57422L98.7899 1.11269H101.161L97.2883 12.4204V18.5742H94.9174V12.4204H94.8384Z" fill="#111111"/>
-            </g>
-            <defs>
-            <clipPath id="clip0_135_3364">
-            <rect width="101" height="18" fill="white" transform="translate(0.160782 0.804993)"/>
-            </clipPath>
-            </defs>
-          </svg>
+          <a class="logo__link" href="index.html">
+            <svg class="logo__icon" width="35" height="38" viewBox="0 0 35 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_153_300)">
+              <path d="M6.91078 20.72V18.46C13.5944 17.5423 20.3345 17.0979 27.0808 17.13C27.0808 17.73 27.0808 18.34 27.0208 18.95C28.9384 18.099 30.9536 17.4877 33.0208 17.13C31.7033 13.722 29.3025 10.8412 26.1879 8.93086C23.0732 7.02051 19.4172 6.1864 15.7822 6.55683C12.1472 6.92726 8.73456 8.48172 6.06929 10.9811C3.40402 13.4804 1.63374 16.7863 1.03078 20.39L6.91078 20.72Z" fill="#FDC305"/>
+              <path d="M28.0808 24.23C26.9208 25.51 26.6908 25.43 26.6908 27.68C26.6908 28.59 26.6908 32.58 26.6908 36.86C28.9833 35.346 30.8653 33.2879 32.1688 30.8694C33.4722 28.4509 34.1566 25.7474 34.1608 23C34.1476 21.9591 34.0405 20.9216 33.8408 19.9C31.769 21.1295 29.8375 22.5814 28.0808 24.23Z" fill="#FDC305"/>
+              <path d="M7.20077 25.72C7.20077 25.72 3.41077 24.28 2.01077 23.89C1.62784 23.7693 1.23687 23.6757 0.840775 23.61C0.94917 26.496 1.80636 29.3041 3.32816 31.7586C4.84996 34.2131 6.98403 36.2296 9.52077 37.61L7.20077 25.72Z" fill="#FDC305"/>
+              <path d="M27.1308 17.12C27.1714 11.5986 26.7028 6.08529 25.7308 0.650004C25.7308 0.650004 25.5908 -0.639996 24.8408 0.410004C24.2517 1.65814 23.8474 2.98539 23.6408 4.35C19.3826 4.07577 15.1083 4.18958 10.8708 4.69C10.0808 2 8.69078 0.750004 8.02078 1C7.35078 1.25 7.30078 4.31 7.30078 4.31L6.97078 18.41C13.652 17.506 20.3888 17.0749 27.1308 17.12Z" fill="#F06351"/>
+              <path d="M13.2508 14C13.2508 13.91 14.2508 14.68 14.6608 14.92C15.0708 15.16 15.2708 15.34 15.2708 15.51C15.2708 15.68 15.0008 15.85 14.6408 15.85C14.2808 15.85 13.7308 15.73 13.6408 15.58H14.5808H14.8708C14.2615 15.1294 13.7165 14.5978 13.2508 14Z" fill="black"/>
+              <path d="M20.7308 14.11L19.6408 15.44C19.6408 15.5 19.4708 15.79 19.8208 15.74C20.235 15.6783 20.6431 15.5812 21.0408 15.45C21.1508 15.45 21.1108 15.26 20.9308 15.28C20.7508 15.3 20.2408 15.33 19.9308 15.39L20.7708 14.13C20.7708 14.13 20.8408 14 20.7308 14.11Z" fill="black"/>
+              <path d="M17.5908 20.2C18.0543 19.9958 18.4375 19.6443 18.6808 19.2C18.9608 18.55 18.6808 18.29 18.2408 18.2C17.6387 18.0902 17.0173 18.2116 16.5008 18.54C16.1108 18.9 16.1608 19.26 16.4508 19.54C16.8021 19.8062 17.185 20.0279 17.5908 20.2Z" fill="black"/>
+              <path d="M17.1908 21.45C17.0787 21.6785 16.9224 21.8825 16.7308 22.05C16.446 22.2791 16.0959 22.4122 15.7308 22.43C15.2046 22.472 14.6814 22.3189 14.2608 22C14.063 21.8808 13.8844 21.7324 13.7308 21.56C13.6303 21.4491 13.5076 21.3605 13.3708 21.3C13.3708 21.3 14.1208 25.4 15.9408 26.05C17.7608 26.7 18.0808 25.3 18.1408 24.92C18.2009 23.7851 17.915 22.6588 17.3208 21.69C17.3008 21.38 17.2908 21.58 17.1908 21.45Z" fill="#F06351"/>
+              <path d="M15.5508 22.59C15.0861 22.5247 14.6397 22.3651 14.239 22.1209C13.8383 21.8767 13.4918 21.5531 13.2208 21.17C13.2075 21.157 13.1969 21.1414 13.1897 21.1242C13.1825 21.1071 13.1788 21.0886 13.1788 21.07C13.1788 21.0514 13.1825 21.0329 13.1897 21.0158C13.1969 20.9986 13.2075 20.983 13.2208 20.97C13.2338 20.9567 13.2494 20.9461 13.2665 20.9389C13.2837 20.9317 13.3021 20.928 13.3208 20.928C13.3394 20.928 13.3578 20.9317 13.375 20.9389C13.3922 20.9461 13.4077 20.9567 13.4208 20.97C13.9255 21.6642 14.6837 22.1313 15.5308 22.27C15.8624 22.245 16.1834 22.1413 16.4669 21.9674C16.7504 21.7934 16.9882 21.5544 17.1608 21.27L17.3008 21.08L17.4008 21.29C17.4008 21.29 17.7708 22.05 18.4008 22.09C19.0308 22.13 19.4508 21.68 20.0108 20.81C20.0238 20.7967 20.0394 20.7861 20.0565 20.7789C20.0737 20.7717 20.0921 20.768 20.1108 20.768C20.1294 20.768 20.1478 20.7717 20.165 20.7789C20.1822 20.7861 20.1977 20.7967 20.2108 20.81C20.2431 20.8306 20.2663 20.8629 20.2756 20.9C20.2849 20.9372 20.2796 20.9766 20.2608 21.01C19.6208 22.01 18.9908 22.45 18.3808 22.41C18.1488 22.3763 17.9274 22.2903 17.7334 22.1587C17.5394 22.0271 17.3778 21.8531 17.2608 21.65C17.0641 21.9245 16.8084 22.1514 16.5125 22.3141C16.2165 22.4767 15.8879 22.571 15.5508 22.59Z" fill="black"/>
+              <path d="M27.0808 18.92C25.2852 20.5437 23.592 22.277 22.0108 24.11C20.4394 25.9361 18.6646 27.5768 16.7208 29C16.5008 28.47 15.1008 27.49 15.1008 27.49C15.1008 27.49 11.9708 25.35 9.92078 23.67C8.81492 22.7373 7.76947 21.7353 6.79078 20.67L4.79078 20.56C7.68095 24.7655 11.911 27.8676 16.7908 29.36C17.6508 29.22 20.0608 27.5 21.8608 26.1C23.9797 24.2819 25.9648 22.3134 27.8008 20.21C28.3033 19.621 28.69 18.9425 28.9408 18.21C27.8408 18.6 27.0808 18.92 27.0808 18.92Z" fill="#F06351"/>
+              </g>
+              <defs>
+              <clipPath id="clip0_153_300">
+              <rect width="33.32" height="37.61" fill="white" transform="translate(0.840775)"/>
+              </clipPath>
+              </defs>
+            </svg>
+          </a>
+          <a class="logo__link" href="index.html">
+            <svg class="logo__text" width="102" height="19" viewBox="0 0 102 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_135_3364)">
+              <path d="M1.42527 17.3435C0.530332 16.0812 0.0860778 14.5677 0.160792 13.0358V6.65115C0.0524166 5.10273 0.468853 3.56245 1.34624 2.26653C2.21557 1.26653 3.55907 0.804993 5.53481 0.804993C7.51056 0.804993 8.77503 1.26653 9.56533 2.11269C10.4233 3.1844 10.8454 4.52635 10.7508 5.88192V7.42038H6.87832V5.65115C6.9096 5.12788 6.82886 4.60399 6.64123 4.11269C6.54094 3.91437 6.38198 3.74979 6.18481 3.64012C5.98764 3.53046 5.76127 3.48072 5.53481 3.4973C4.98161 3.4973 4.58646 3.65115 4.4284 4.03576C4.24962 4.58232 4.1694 5.15488 4.19131 5.72807V13.9588C4.14957 14.515 4.25858 15.072 4.50743 15.5742C4.66549 15.9588 5.06064 16.1127 5.61384 16.1127C6.16705 16.1127 6.48317 15.9588 6.64123 15.5742C6.82091 15.0544 6.90127 14.5069 6.87832 13.9588V12.1127H10.7508V13.6511C10.8311 15.0288 10.4116 16.3902 9.56533 17.4973C8.77503 18.4204 7.43153 18.8819 5.53481 18.8819C3.6381 18.805 2.21557 18.3435 1.42527 17.3435Z" fill="#111111"/>
+              <path d="M15.4135 1.03577H19.9182L23.2375 18.5742H19.6021L18.9699 14.8819H16.3619L15.7296 18.5742H12.0152L15.4135 1.03577ZM18.6537 12.5742L17.7054 5.72807L16.757 12.5742H18.6537Z" fill="#111111"/>
+              <path d="M26.0035 3.95884H23.3165V1.03577H32.721V3.88192H30.034V18.5742H26.0035V3.95884Z" fill="#111111"/>
+              <path d="M39.9127 1.03577H46.8674V2.88192H42.3627V8.65115H45.998V10.4204H42.3627V16.8819H46.8674V18.6512H39.8337V1.03577H39.9127Z" fill="#111111"/>
+              <path d="M48.9221 1.03577H50.6608L55.7977 12.6512V1.03577H57.8525V18.5742H56.2719L51.0559 6.57423V18.5742H48.9221V1.03577Z" fill="#111111"/>
+              <path d="M60.2234 1.03577H67.178V2.88192H62.6733V8.65115H66.3087V10.4204H62.6733V16.8819H67.178V18.6512H60.2234V1.03577Z" fill="#111111"/>
+              <path d="M69.2328 1.03577H72.8682C74.2982 0.939617 75.7194 1.31935 76.8987 2.11269C77.768 2.805 78.1631 4.03577 78.1631 5.65115C78.1631 7.88192 77.4519 9.26654 75.9503 9.72808L78.4793 18.4973H76.0293L73.6585 10.2665H71.6827V18.4973H69.1538V1.03577H69.2328ZM72.7101 8.57423C73.5248 8.63958 74.3369 8.42152 75.002 7.95885C75.4761 7.57423 75.7132 6.805 75.7132 5.65115C75.7351 5.07796 75.6549 4.5054 75.4761 3.95885C75.2983 3.56666 74.9928 3.2423 74.6068 3.03577C74.0625 2.79434 73.465 2.6886 72.8682 2.72808H71.7617V8.49731H72.7101V8.57423Z" fill="#111111"/>
+              <path d="M81.3243 17.2665C80.5028 15.9216 80.1172 14.3666 80.2179 12.805V6.95884C80.1984 5.8441 80.3313 4.73179 80.613 3.65115C80.8775 2.84362 81.4045 2.14167 82.1146 1.65115C82.997 1.14274 84.015 0.901726 85.0387 0.958841C86.6983 0.958841 87.8838 1.34346 88.595 2.18961C89.4132 3.30691 89.8046 4.66737 89.7015 6.03576V6.65115H87.3306V6.11269C87.3341 5.46845 87.2813 4.8251 87.1725 4.18961C87.1059 3.78803 86.8785 3.42848 86.5403 3.18961C86.0961 2.90582 85.5689 2.77078 85.0387 2.80499C84.472 2.76965 83.9112 2.93343 83.4581 3.26653C83.2722 3.41901 83.1203 3.60681 83.0115 3.81844C82.9028 4.03007 82.8396 4.26107 82.8259 4.4973C82.7217 5.18498 82.6689 5.87911 82.6678 6.57423V13.1127C82.6095 14.1088 82.7712 15.1056 83.142 16.0358C83.4581 16.6511 84.0903 16.8819 85.0387 16.8819C85.4131 16.9273 85.793 16.8639 86.1305 16.6997C86.468 16.5354 86.7481 16.2777 86.9354 15.9588C87.353 14.9861 87.542 13.9349 87.4886 12.8819V11.6511H85.1968V9.88192H89.7805V18.5742H88.1999L87.9628 16.5742C87.7556 17.2445 87.3242 17.8281 86.7371 18.2323C86.15 18.6365 85.4409 18.8381 84.7226 18.805C84.0696 18.8424 83.4172 18.7214 82.8241 18.4529C82.231 18.1844 81.7156 17.7767 81.3243 17.2665V17.2665Z" fill="#111111"/>
+              <path d="M94.8384 12.4204L90.9659 1.11269H93.3368L96.1029 9.57422L98.7899 1.11269H101.161L97.2883 12.4204V18.5742H94.9174V12.4204H94.8384Z" fill="#111111"/>
+              </g>
+              <defs>
+              <clipPath id="clip0_135_3364">
+              <rect width="101" height="18" fill="white" transform="translate(0.160782 0.804993)"/>
+              </clipPath>
+              </defs>
+            </svg>
+          </a>
         </div>
-        <button class="page-header__toggle" type="button"><span class="visually-hidden">Закрыть</span></button>
-        <nav class="page-header__nav main-navigation">
+        <nav class="page-header__nav main-navigation main-navigation--open main-navigation--nojs">
+          <button class="main-navigation__toggle" type="button">
+            <span class="main-navigation__toggle-line"></span>
+            <span class="main-navigation__toggle-line"></span>
+            <span class="main-navigation__toggle-line"></span>
+          </button>
           <ul class="main-navigation__list">
             <li class="main-navigation__item"><a class="main-navigation__link" href="index.html">Главная</a></li>
             <li class="main-navigation__item"><a class="main-navigation__link main-navigation__link--active">Каталог продукции</a></li>
@@ -58,226 +68,260 @@
       </div>
     </header>
     <main class="main">
-      <div class="container">
-        <section class="catalog">
-          <h1 class="catalog__title title">Каталог продукции</h1>
+      <section class="catalog">
+        <h1 class="catalog__title title">Каталог продукции</h1>
           <ul class="catalog__list">
             <li class="catalog__item">
-              <div class="catalog__image-wrapper">
-                <img class="catalog__image" src="./img/image-catalog-1.png" alt="Cat Energy PRO 500 г">
+              <div class="catalog__wrapper">
+                <div class="catalog__image-wrapper">
+                  <picture>
+                    <source srcset="./img/image-catalog-tablet-1.png" media="(min-width: 768px)">
+                    <img class="catalog__image catalog__image--position" src="./img/image-catalog-1.png" alt="Cat Energy PRO 500 г">
+                   </picture>
+                </div>
+                <div class="catalog__info">
+                  <h3 class="catalog__name">Cat Energy PRO 500 г</h3>
+                  <table class="catalog__table">
+                    <tr class="catalog__row">
+                      <td class="catalog__column">Масса</td>
+                      <td class="catalog__column catalog__column-value">500 г</td>
+                    </tr>
+                    <tr class="catalog__row">
+                      <td class="catalog__column">Вкус</td>
+                      <td class="catalog__column catalog__column-value"> Курица</td>
+                    </tr>
+                    <tr class="catalog__row">
+                      <td class="catalog__column">Цена</td>
+                      <td class="catalog__column catalog__column-value">700 Р.</td>
+                    </tr>
+                  </table>
+                </div>
+                <button class="catalog__button button" type="button">Заказать</button>
               </div>
-              <div class="catalog__info">
-                <h3 class="catalog__name">Cat Energy PRO 500 г</h3>
-                <table class="catalog__table">
-                  <tr class="catalog__row">
-                    <td class="catalog__column">Масса</td>
-                    <td class="catalog__column">500 г</td>
-                  </tr>
-                  <tr class="catalog__row">
-                    <td class="catalog__column">Вкус</td>
-                    <td class="catalog__column"> Курица</td>
-                  </tr>
-                  <tr class="catalog__row">
-                    <td class="catalog__column">Цена</td>
-                    <td class="catalog__column">700 Р.</td>
-                  </tr>
-                </table>
-              </div>
-              <button class="catalog__button button" type="button">Заказать</button>
             </li>
             <li class="catalog__item">
-              <div class="catalog__image-wrapper">
-                <img class="catalog__image" src="./img/image-catalog-1-large.png" alt="Cat Energy PRO 1000 г">
+              <div class="catalog__wrapper">
+                <div class="catalog__image-wrapper">
+                  <picture>
+                    <source srcset="./img/image-catalog-tablet-large-1.png" media="(min-width: 768px)">
+                    <img class="catalog__image" src="./img/image-catalog-1-large.png" alt="Cat Energy PRO 1000 г">
+                   </picture>
+                </div>
+                <div class="catalog__info">
+                  <h3 class="catalog__name">Cat Energy PRO 1000 г</h3>
+                  <table class="catalog__table">
+                    <tr class="catalog__row">
+                      <td class="catalog__column">Масса</td>
+                      <td class="catalog__column catalog__column-value">1000 г</td>
+                    </tr>
+                    <tr class="catalog__row">
+                      <td class="catalog__column">Вкус</td>
+                      <td class="catalog__column catalog__column-value">Курица</td>
+                    </tr>
+                    <tr class="catalog__row">
+                      <td class="catalog__column">Цена</td>
+                      <td class="catalog__column catalog__column-value">1000 Р.</td>
+                    </tr>
+                  </table>
+                </div>
+                <button class="catalog__button button" type="button">Заказать</button>
               </div>
-              <div class="catalog__info">
-                <h3 class="catalog__name">Cat Energy PRO 1000 г</h3>
-                <table class="catalog__table">
-                  <tr class="catalog__row">
-                    <td class="catalog__column">Масса</td>
-                    <td class="catalog__column">1000 г</td>
-                  </tr>
-                  <tr class="catalog__row">
-                    <td class="catalog__column">Вкус</td>
-                    <td class="catalog__column">Курица</td>
-                  </tr>
-                  <tr class="catalog__row">
-                    <td class="catalog__column">Цена</td>
-                    <td class="catalog__column">1000 Р.</td>
-                  </tr>
-                </table>
-              </div>
-              <button class="catalog__button button" type="button">Заказать</button>
             </li>
             <li class="catalog__item">
-              <div class="catalog__image-wrapper">
-                <img class="catalog__image" src="./img/image-catalog-2.png" alt="Cat Energy PRO 500 г">
+              <div class="catalog__wrapper">
+                <div class="catalog__image-wrapper">
+                  <picture>
+                    <source srcset="./img/image-catalog-tablet-2.png" media="(min-width: 768px)">
+                    <img class="catalog__image catalog__image--position" src="./img/image-catalog-2.png" alt="Cat Energy PRO 500 г">
+                   </picture>
+                </div>
+                <div class="catalog__info">
+                  <h3 class="catalog__name">Cat Energy PRO 500 г</h3>
+                  <table class="catalog__table">
+                    <tr class="catalog__row">
+                      <td class="catalog__column">Масса</td>
+                      <td class="catalog__column catalog__column-value">500 г</td>
+                    </tr>
+                    <tr class="catalog__row">
+                      <td class="catalog__column">Вкус</td>
+                      <td class="catalog__column catalog__column-value">Рыба</td>
+                    </tr>
+                    <tr class="catalog__row">
+                      <td class="catalog__column">Цена</td>
+                      <td class="catalog__column catalog__column-value">700 Р.</td>
+                    </tr>
+                  </table>
+                </div>
+                <button class="catalog__button button" type="button">Заказать</button>
               </div>
-              <div class="catalog__info">
-                <h3 class="catalog__name">Cat Energy PRO 500 г"</h3>
-                <table class="catalog__table">
-                  <tr class="catalog__row">
-                    <td class="catalog__column">Масса</td>
-                    <td class="catalog__column">500 г</td>
-                  </tr>
-                  <tr class="catalog__row">
-                    <td class="catalog__column">Вкус</td>
-                    <td class="catalog__column">Рыба</td>
-                  </tr>
-                  <tr class="catalog__row">
-                    <td class="catalog__column">Цена</td>
-                    <td class="catalog__column">700 Р.</td>
-                  </tr>
-                </table>
-              </div>
-              <button class="catalog__button button" type="button">Заказать</button>
             </li>
             <li class="catalog__item">
-              <div class="catalog__image-wrapper">
-                <img class="catalog__image" src="./img/image-catalog-2-large.png" alt="Cat Energy PRO 1000 г">
+              <div class="catalog__wrapper">
+                <div class="catalog__image-wrapper">
+                  <picture>
+                    <source srcset="./img/image-catalog-tablet-large-2.png" media="(min-width: 768px)">
+                    <img class="catalog__image" src="./img/image-catalog-2-large.png" alt="Cat Energy PRO 1000 г">
+                   </picture>
+                </div>
+                <div class="catalog__info">
+                  <h3 class="catalog__name">Cat Energy PRO 1000 г</h3>
+                  <table class="catalog__table">
+                    <tr class="catalog__row">
+                      <td class="catalog__column">Масса</td>
+                      <td class="catalog__column catalog__column-value">1000 г</td>
+                    </tr>
+                    <tr class="catalog__row">
+                      <td class="catalog__column">Вкус</td>
+                      <td class="catalog__column catalog__column-value">Рыба</td>
+                    </tr>
+                    <tr class="catalog__row">
+                      <td class="catalog__column">Цена</td>
+                      <td class="catalog__column catalog__column-value">1000 Р.</td>
+                    </tr>
+                  </table>
+                </div>
+                <button class="catalog__button button" type="button">Заказать</button>
               </div>
-              <div class="catalog__info">
-                <h3 class="catalog__name">Cat Energy PRO 1000 г</h3>
-                <table class="catalog__table">
-                  <tr class="catalog__row">
-                    <td class="catalog__column">Масса</td>
-                    <td class="catalog__column">1000 г</td>
-                  </tr>
-                  <tr class="catalog__row">
-                    <td class="catalog__column">Вкус</td>
-                    <td class="catalog__column">Рыба</td>
-                  </tr>
-                  <tr class="catalog__row">
-                    <td class="catalog__column">Цена</td>
-                    <td class="catalog__column">1000 Р.</td>
-                  </tr>
-                </table>
-              </div>
-              <button class="catalog__button button" type="button">Заказать</button>
             </li>
             <li class="catalog__item">
-              <div class="catalog__image-wrapper">
-                <img class="catalog__image" src="./img/image-catalog-3.png" alt="Cat Energy slim 500 г">
+              <div class="catalog__wrapper">
+                <div class="catalog__image-wrapper">
+                  <picture>
+                    <source srcset="./img/image-catalog-tablet-3.png" media="(min-width: 768px)">
+                    <img class="catalog__image catalog__image--position" src="./img/image-catalog-3.png" alt="Cat Energy slim 500 г">
+                   </picture>
+                </div>
+                <div class="catalog__info">
+                  <h3 class="catalog__name">Cat Energy slim 500 г</h3>
+                  <table class="catalog__table">
+                    <tr class="catalog__row">
+                      <td class="catalog__column">Масса</td>
+                      <td class="catalog__column catalog__column-value">500 г</td>
+                    </tr>
+                    <tr class="catalog__row">
+                      <td class="catalog__column">Вкус</td>
+                      <td class="catalog__column catalog__column-value">Гречка</td>
+                    </tr>
+                    <tr class="catalog__row">
+                      <td class="catalog__column">Цена</td>
+                      <td class="catalog__column catalog__column-value">400 Р.</td>
+                    </tr>
+                  </table>
+                </div>
+                <button class="catalog__button button" type="button">Заказать</button>
               </div>
-              <div class="catalog__info">
-                <h3 class="catalog__name">Cat Energy slim 500 г</h3>
-                <table class="catalog__table">
-                  <tr class="catalog__row">
-                    <td class="catalog__column">Масса</td>
-                    <td class="catalog__column">500 г</td>
-                  </tr>
-                  <tr class="catalog__row">
-                    <td class="catalog__column">Вкус</td>
-                    <td class="catalog__column">Гречка</td>
-                  </tr>
-                  <tr class="catalog__row">
-                    <td class="catalog__column">Цена</td>
-                    <td class="catalog__column">400 Р.</td>
-                  </tr>
-                </table>
-              </div>
-              <button class="catalog__button button" type="button">Заказать</button>
             </li>
             <li class="catalog__item">
-              <div class="catalog__image-wrapper">
-                <img class="catalog__image" src="./img/image-catalog-3-large.png" alt="Cat Energy slim 1000 г">
-              </div>
-              <div class="catalog__info">
-                <h3 class="catalog__name">Cat Energy slim 1000 г</h3>
-                <table class="catalog__table">
-                  <tr class="catalog__row">
-                    <td class="catalog__column">Масса</td>
-                    <td class="catalog__column">1000 г</td>
-                  </tr>
-                  <tr class="catalog__row">
-                    <td class="catalog__column">Вкус</td>
-                    <td class="catalog__column">Гречка</td>
-                  </tr>
-                  <tr class="catalog__row">
-                    <td class="catalog__column">Цена</td>
-                    <td class="catalog__column">700 Р.</td>
-                  </tr>
-                </table>
-              </div>
-              <button class="catalog__button button" type="button">Заказать</button>
+             <div class="catalog__wrapper">
+                <div class="catalog__image-wrapper">
+                  <picture>
+                    <source srcset="./img/image-catalog-tablet-large-3.png" media="(min-width: 768px)">
+                    <img class="catalog__image" src="./img/image-catalog-3-large.png" alt="Cat Energy slim 1000 г">
+                   </picture>
+                </div>
+                <div class="catalog__info">
+                  <h3 class="catalog__name">Cat Energy slim 1000 г</h3>
+                  <table class="catalog__table">
+                    <tr class="catalog__row">
+                      <td class="catalog__column">Масса</td>
+                      <td class="catalog__column catalog__column-value">1000 г</td>
+                    </tr>
+                    <tr class="catalog__row">
+                      <td class="catalog__column">Вкус</td>
+                      <td class="catalog__column catalog__column-value">Гречка</td>
+                    </tr>
+                    <tr class="catalog__row">
+                      <td class="catalog__column">Цена</td>
+                      <td class="catalog__column catalog__column-value">700 Р.</td>
+                    </tr>
+                  </table>
+                </div>
+                <button class="catalog__button button" type="button">Заказать</button>
+             </div>
             </li>
             <li class="catalog__item">
-              <div class="catalog__image-wrapper">
-                <img class="catalog__image" src="./img/image-catalog-4.png" alt="Cat Energy slim 500 г">
+              <div class="catalog__wrapper">
+                <div class="catalog__image-wrapper">
+                  <picture>
+                    <source srcset="./img/image-catalog-tablet-4.png" media="(min-width: 768px)">
+                    <img class="catalog__image catalog__image--position" src="./img/image-catalog-4.png" alt="Cat Energy slim 500 г">
+                   </picture>
+                </div>
+                <div class="catalog__info">
+                  <h3 class="catalog__name">Cat Energy slim 500 г</h3>
+                  <table class="catalog__table">
+                    <tr class="catalog__row">
+                      <td class="catalog__column">Масса</td>
+                      <td class="catalog__column catalog__column-value">500 г</td>
+                    </tr>
+                    <tr class="catalog__row">
+                      <td class="catalog__column">Вкус</td>
+                      <td class="catalog__column catalog__column-value">Рис</td>
+                    </tr>
+                    <tr class="catalog__row">
+                      <td class="catalog__column">Цена</td>
+                      <td class="catalog__column catalog__column-value">500 Р.</td>
+                    </tr>
+                  </table>
+                </div>
+                <button class="catalog__button button" type="button">Заказать</button>
               </div>
-              <div class="catalog__info">
-                <h3 class="catalog__name">Cat Energy slim 500 г</h3>
-                <table class="catalog__table">
-                  <tr class="catalog__row">
-                    <td class="catalog__column">Масса</td>
-                    <td class="catalog__column">500 г</td>
-                  </tr>
-                  <tr class="catalog__row">
-                    <td class="catalog__column">Вкус</td>
-                    <td class="catalog__column">Рис</td>
-                  </tr>
-                  <tr class="catalog__row">
-                    <td class="catalog__column">Цена</td>
-                    <td class="catalog__column">500 Р.</td>
-                  </tr>
-                </table>
-              </div>
-              <button class="catalog__button button" type="button">Заказать</button>
             </li>
-            <li class="catalog__item catalog__item--show-more">
-              <b class="catalog__name">Показать еще 100500 товаров</b>
-              <p class="catalog__text">На самом деле вкусов гораздо больше!</p>
-              <button class="catalog__button catalog__button--show button" type="button">Показать все</button>
+            <li class="catalog__item-more">
+              <b class="catalog__text">Показать еще 100500 товаров</b>
+              <p class="catalog__subtext">На самом деле вкусов гораздо больше!</p>
+              <button class="catalog__button catalog__button-more button" type="button">Показать все</button>
             </li>
           </ul>
-        </section>
-        <section class="additional">
-          <h2 class="additional__title">Дополнительные товары</h2>
-          <div class="additional__wrapper">
-            <ul class="additional__list">
-              <li class="additional__item">
-                <b class="additional__name">Сахарозаменитель</b>
-                <span class="additional__text">1 упаковка (100 г)</span>
-                <span class="additional__text">200 Р.</span>
-                <button class="additional__button button">Заказать</button>
-              </li>
-              <li class="additional__item">
-                <b class="additional__name">Питьевая вода</b>
-                <span class="additional__text">5 литров</span>
-                <span class="additional__text">50 Р.</span>
-                <button class="additional__button button">Заказать</button>
-              </li>
-              <li class="additional__item">
-                <b class="additional__name">Молоко</b>
-                <span class="additional__text">1 литр</span>
-                <span class="additional__text">100 Р.</span>
-                <button class="additional__button button">Заказать</button>
-              </li>
-              <li class="additional__item">
-                <b class="additional__name">Витамины</b>
-                <span class="additional__text">1 упаковка (30 г)</span>
-                <span class="additional__text">300 Р.</span>
-                <button class="additional__button button">Заказать</button>
-              </li>
-            </ul>
-          </div>
+      </section>
+      <section class="additional">
+        <h2 class="additional__title">Дополнительные товары</h2>
+        <div class="additional__wrapper container">
+          <ul class="additional__list">
+            <li class="additional__item">
+              <b class="additional__name">Сахарозаменитель</b>
+              <span class="additional__text additional__count">1 упаковка (100 г)</span>
+              <span class="additional__text additional__price">200 Р.</span>
+              <button class="additional__button button">Заказать</button>
+            </li>
+            <li class="additional__item">
+              <b class="additional__name">Питьевая вода</b>
+              <span class="additional__text additional__count">5 литров</span>
+              <span class="additional__text additional__price">50 Р.</span>
+              <button class="additional__button button">Заказать</button>
+            </li>
+            <li class="additional__item">
+              <b class="additional__name">Молоко</b>
+              <span class="additional__text additional__count">1 литр</span>
+              <span class="additional__text additional__price">100 Р.</span>
+              <button class="additional__button button">Заказать</button>
+            </li>
+            <li class="additional__item">
+              <b class="additional__name">Витамины</b>
+              <span class="additional__text additional__count">1 упаковка (30 г)</span>
+              <span class="additional__text additional__price">300 Р.</span>
+              <button class="additional__button button">Заказать</button>
+            </li>
+          </ul>
           <div class="additional__promotion">
-            <p class="additional__promotion-text">Закажите все и получите чехол для кота в подарок!</p>
+            <p class="additional__promotion-text">Закажите все и&nbsp;получите чехол для кота в подарок!</p>
           </div>
-        </section>
-      </div>
+        </div>
+      </section>
       <section class="contacts">
         <h2 class="visually-hidden">Контакты</h2>
-        <div class="contacts__wrapper">
-          <p class="contacts__text">Приглашаем к сотрудничеству дилеров!</p>
-          <p class="contacts__address">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
+        <div class="contacts__map">
+          <div class="contacts__wrapper contacts__wrapper--background">
+            <p class="contacts__text">Приглашаем к&nbspсотрудничеству дилеров!</p>
+            <p class="contacts__address">ул. Большая Конюшенная, д. 19/8 <span class="contacts__city">Санкт-Петербург</span></p>
+          </div>
         </div>
-        <div class="map"></div>
       </section>
     </main>
     <footer class="footer">
       <div class="footer__container container">
-        <div class="footer__logo logo">
-          <svg class="logo__text" width="128" height="24" viewBox="0 0 102 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <div class="footer__logo">
+          <svg class="footer__logo-text" width="128" height="24" viewBox="0 0 102 19" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clip-path="url(#clip0_135_3364)">
             <path d="M1.42527 17.3435C0.530332 16.0812 0.0860778 14.5677 0.160792 13.0358V6.65115C0.0524166 5.10273 0.468853 3.56245 1.34624 2.26653C2.21557 1.26653 3.55907 0.804993 5.53481 0.804993C7.51056 0.804993 8.77503 1.26653 9.56533 2.11269C10.4233 3.1844 10.8454 4.52635 10.7508 5.88192V7.42038H6.87832V5.65115C6.9096 5.12788 6.82886 4.60399 6.64123 4.11269C6.54094 3.91437 6.38198 3.74979 6.18481 3.64012C5.98764 3.53046 5.76127 3.48072 5.53481 3.4973C4.98161 3.4973 4.58646 3.65115 4.4284 4.03576C4.24962 4.58232 4.1694 5.15488 4.19131 5.72807V13.9588C4.14957 14.515 4.25858 15.072 4.50743 15.5742C4.66549 15.9588 5.06064 16.1127 5.61384 16.1127C6.16705 16.1127 6.48317 15.9588 6.64123 15.5742C6.82091 15.0544 6.90127 14.5069 6.87832 13.9588V12.1127H10.7508V13.6511C10.8311 15.0288 10.4116 16.3902 9.56533 17.4973C8.77503 18.4204 7.43153 18.8819 5.53481 18.8819C3.6381 18.805 2.21557 18.3435 1.42527 17.3435Z" fill="#111111"/>
             <path d="M15.4135 1.03577H19.9182L23.2375 18.5742H19.6021L18.9699 14.8819H16.3619L15.7296 18.5742H12.0152L15.4135 1.03577ZM18.6537 12.5742L17.7054 5.72807L16.757 12.5742H18.6537Z" fill="#111111"/>
@@ -297,26 +341,26 @@
           </svg>
         </div>
         <ul class="footer__socials">
-          <li class="footer__socials-item">
+          <li class="footer__socials-item footer__socials-item--vkontakte">
             <a href="" class="footer__socials-link">
-              <span class="vsually-hidden">Vkontakte</span>
-              <svg width="23" height="13" viewBox="0 0 23 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <span class="visually-hidden">Vkontakte</span>
+              <svg class="footer_socials-icon footer_socials-icon--vkontakte" width="23" height="13" viewBox="0 0 23 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M0.0700912 1.99266C0.0700912 1.37082 0.493211 1.03552 1.33945 0.986745L4.60039 1.00503C4.81925 1.00503 4.96515 1.09648 5.0381 1.27938C5.37368 2.19385 5.74938 2.98334 6.16521 3.64785C6.58103 4.31237 7.12452 5.07748 7.79568 5.94317C7.85404 6.05291 7.94888 6.10778 8.08019 6.10778C8.18232 6.10778 8.26257 6.0651 8.32093 5.97975L8.38659 5.77857L8.40848 2.6145C8.40848 2.39503 8.34647 2.24871 8.22245 2.17556C8.09843 2.1024 7.86863 2.04753 7.53305 2.01095C7.27043 1.97437 7.13911 1.84025 7.13911 1.60859C7.13911 1.55981 7.14641 1.52323 7.161 1.49885C7.4674 0.706308 8.34282 0.310037 9.78726 0.310037L11.0129 0.291748C11.5673 0.291748 12.0269 0.407581 12.3916 0.639247C12.7564 0.870913 12.9388 1.2367 12.9388 1.73661V5.88831C13.0409 5.94927 13.1357 5.97975 13.2233 5.97975C13.4421 5.97975 13.6318 5.87002 13.7923 5.65054C15.3973 3.77283 16.2654 2.51696 16.3967 1.88293C16.3967 1.87073 16.4113 1.84025 16.4405 1.79148C16.5426 1.60859 16.7104 1.45008 16.9438 1.31595C17.1773 1.18183 17.3815 1.09039 17.5566 1.04161C17.615 1.01723 17.6806 1.00503 17.7536 1.00503H21.1458L21.3647 1.02332C21.6565 1.02332 21.8827 1.13916 22.0432 1.37082C22.1015 1.44398 22.1416 1.52323 22.1635 1.60859C22.1854 1.69394 22.2 1.77929 22.2073 1.86464C22.2146 1.94999 22.2182 1.99876 22.2182 2.01095V2.13898C22.1161 2.63889 21.8571 3.17233 21.4413 3.7393C21.0255 4.30627 20.4966 4.91897 19.8546 5.57739C19.2126 6.2358 18.8114 6.66865 18.6509 6.87593C18.5196 7.02225 18.4539 7.15637 18.4539 7.2783C18.4539 7.37584 18.5123 7.48558 18.629 7.60751L21.8243 10.9728C21.9994 11.1678 22.0869 11.3812 22.0869 11.6129C22.0869 11.8933 21.9556 12.125 21.693 12.3079C21.4304 12.4908 21.1167 12.5944 20.7519 12.6188L20.3799 12.6371H17.0533C17.0387 12.6371 17.0095 12.6401 16.9657 12.6462C16.9219 12.6523 16.8928 12.6554 16.8782 12.6554C16.5572 12.6554 16.2581 12.5396 15.9809 12.3079C15.8787 12.2103 15.193 11.491 13.9236 10.1497C13.8507 10.0644 13.7485 9.98513 13.6172 9.91197C13.5589 10.1071 13.4823 10.3875 13.3874 10.7533C13.2926 11.1191 13.2233 11.3812 13.1795 11.5397L13.1139 11.8507C12.968 12.2774 12.6616 12.5335 12.1947 12.6188L11.8883 12.6371H9.74349C8.53249 12.6371 7.32514 12.1738 6.12144 11.2471C4.91773 10.3204 3.8344 9.12248 2.87144 7.65323C1.90848 6.18398 1.01117 4.47393 0.179519 2.52306C0.106567 2.36455 0.0700912 2.18775 0.0700912 1.99266ZM13.2233 6.72962C12.9169 6.72962 12.6397 6.65951 12.3916 6.51929C12.1436 6.37907 12.0196 6.18703 12.0196 5.94317V1.73661C12.0196 1.49275 11.9466 1.319 11.8007 1.21536C11.6548 1.11172 11.3995 1.0599 11.0347 1.0599L9.78726 1.09648C9.15988 1.09648 8.68569 1.18793 8.3647 1.37082C9.00668 1.62687 9.32767 2.04143 9.32767 2.6145V5.83344C9.29849 6.13826 9.15258 6.39126 8.88996 6.59245C8.62733 6.79363 8.33552 6.89422 8.01454 6.89422C7.57683 6.89422 7.24125 6.71743 7.0078 6.36383C5.86975 4.92506 5.02351 3.55945 4.46908 2.267L4.27211 1.79148L1.36134 1.77319C1.17166 1.77319 1.06588 1.78233 1.044 1.80062C1.02211 1.81891 1.01117 1.87073 1.01117 1.95608C1.01117 2.06582 1.02576 2.18165 1.05494 2.30358L1.51454 3.32779C2.74012 5.97366 4.07149 8.05865 5.50864 9.58277C6.94579 11.1069 8.35741 11.8689 9.74349 11.8689H11.932C12.0196 11.8689 12.0852 11.8476 12.129 11.8049C12.1728 11.7623 12.2093 11.68 12.2384 11.558L12.2822 11.3751L12.698 9.76566C12.8148 9.54619 12.9169 9.39987 13.0044 9.32671C13.1649 9.19259 13.3546 9.12553 13.5735 9.12553C13.9236 9.12553 14.2811 9.30233 14.6458 9.65592L16.5061 11.6312C16.6228 11.7897 16.7469 11.8689 16.8782 11.8689H20.4893C20.927 11.8689 21.1458 11.7775 21.1458 11.5946C21.1458 11.5336 21.124 11.4727 21.0802 11.4117L17.9068 8.10132C17.6588 7.84527 17.5347 7.57093 17.5347 7.2783C17.5347 6.98567 17.6515 6.70523 17.8849 6.43699C18.0746 6.19313 18.443 5.78771 18.9901 5.22074C19.5373 4.65377 20.0151 4.12338 20.4236 3.62956C20.8322 3.13575 21.1021 2.68766 21.2334 2.28529L21.299 2.04753C21.2845 2.02314 21.2772 1.98352 21.2772 1.92865C21.2772 1.87378 21.2699 1.82806 21.2553 1.79148H17.8192C17.6004 1.86464 17.4253 1.97437 17.294 2.12069L17.1627 2.46819C16.7979 3.3095 15.8423 4.60805 14.2957 6.36383C13.9893 6.60769 13.6318 6.72962 13.2233 6.72962Z"/>
               </svg>
             </a>
           </li>
-          <li class="footer__socials-item">
+          <li class="footer__socials-item footer__socials-item--instagram">
             <a href="" class="footer__socials-link">
-              <span class="vsually-hidden">Instagram</span>
-              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <span class="visually-hidden">Instagram</span>
+              <svg class="footer_socials-icon footer_socials-icon--instagram" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M7.98438 0.0625C9.31771 0.0625 10.4062 0.078125 11.25 0.109375C11.9688 0.140625 12.6094 0.265625 13.1719 0.484375C13.7135 0.692708 14.1823 0.994792 14.5781 1.39062C14.974 1.78646 15.276 2.25521 15.4844 2.79687C15.7031 3.35937 15.8281 4 15.8594 4.71875C15.8906 5.5625 15.9062 6.65104 15.9062 7.98437C15.9062 9.31771 15.8906 10.4062 15.8594 11.25C15.8281 11.9687 15.7031 12.6094 15.4844 13.1719C15.276 13.7135 14.974 14.1823 14.5781 14.5781C14.1823 14.974 13.7135 15.276 13.1719 15.4844C12.6094 15.7031 11.9688 15.8281 11.25 15.8594C10.4062 15.8906 9.31771 15.9062 7.98438 15.9062C6.65104 15.9062 5.5625 15.8906 4.71875 15.8594C4 15.8281 3.35938 15.7031 2.79688 15.4844C2.25521 15.276 1.78646 14.974 1.39062 14.5781C0.994792 14.1823 0.692708 13.7135 0.484375 13.1719C0.265625 12.6094 0.140625 11.9687 0.109375 11.25C0.078125 10.4062 0.0625 9.31771 0.0625 7.98437C0.0625 6.65104 0.078125 5.5625 0.109375 4.71875C0.140625 4 0.265625 3.35937 0.484375 2.79687C0.692708 2.25521 0.994792 1.78646 1.39062 1.39062C1.78646 0.994792 2.25521 0.692708 2.79688 0.484375C3.35938 0.265625 4 0.140625 4.71875 0.109375C5.5625 0.078125 6.65104 0.0625 7.98438 0.0625ZM7.98438 1.09375C6.59896 1.09375 5.46875 1.10937 4.59375 1.14062C4.03125 1.16146 3.51042 1.26042 3.03125 1.4375C2.28125 1.75 1.75 2.28125 1.4375 3.03125C1.26042 3.51042 1.16146 4.03125 1.14062 4.59375C1.10938 5.46875 1.09375 6.59896 1.09375 7.98437C1.09375 9.36979 1.10938 10.5 1.14062 11.375C1.16146 11.9375 1.26042 12.4583 1.4375 12.9375C1.75 13.6875 2.28125 14.2187 3.03125 14.5312C3.51042 14.7083 4.03125 14.8073 4.59375 14.8281C5.46875 14.8594 6.59896 14.875 7.98438 14.875C9.36979 14.875 10.5 14.8594 11.375 14.8281C11.9375 14.8073 12.4583 14.7083 12.9375 14.5312C13.6875 14.2187 14.2188 13.6875 14.5312 12.9375C14.7083 12.4583 14.8073 11.9375 14.8281 11.375C14.8594 10.5 14.875 9.36979 14.875 7.98437C14.875 6.59896 14.8594 5.46875 14.8281 4.59375C14.8073 4.03125 14.7083 3.51042 14.5312 3.03125C14.2188 2.28125 13.6875 1.75 12.9375 1.4375C12.4583 1.26042 11.9375 1.16146 11.375 1.14062C10.5 1.10937 9.36979 1.09375 7.98438 1.09375ZM7.98438 11.1562C8.85938 11.1562 9.60677 10.8464 10.2266 10.2266C10.8464 9.60677 11.1562 8.85937 11.1562 7.98437C11.1562 7.10937 10.8464 6.36198 10.2266 5.74219C9.60677 5.1224 8.85938 4.8125 7.98438 4.8125C7.10938 4.8125 6.36198 5.1224 5.74219 5.74219C5.1224 6.36198 4.8125 7.10937 4.8125 7.98437C4.8125 8.85937 5.1224 9.60677 5.74219 10.2266C6.36198 10.8464 7.10938 11.1562 7.98438 11.1562ZM7.98438 3.92187C9.10938 3.92187 10.0677 4.31771 10.8594 5.10937C11.651 5.90104 12.0469 6.85937 12.0469 7.98437C12.0469 9.10937 11.651 10.0677 10.8594 10.8594C10.0677 11.651 9.10938 12.0469 7.98438 12.0469C6.85938 12.0469 5.90104 11.651 5.10938 10.8594C4.31771 10.0677 3.92188 9.10937 3.92188 7.98437C3.92188 6.85937 4.31771 5.90104 5.10938 5.10937C5.90104 4.31771 6.85938 3.92187 7.98438 3.92187ZM13.1719 3.76562C13.1719 4.02604 13.0781 4.2474 12.8906 4.42969C12.7031 4.61198 12.474 4.70312 12.2031 4.70312C11.9427 4.70312 11.7214 4.61198 11.5391 4.42969C11.3568 4.2474 11.2656 4.02604 11.2656 3.76562C11.2656 3.49479 11.3568 3.26562 11.5391 3.07812C11.7214 2.89062 11.9427 2.79687 12.2031 2.79687C12.4635 2.79687 12.6901 2.89323 12.8828 3.08594C13.0755 3.27865 13.1719 3.50521 13.1719 3.76562Z"/>
               </svg>
             </a>
           </li>
-          <li class="footer__socials-item">
+          <li class="footer__socials-item footer__socials-item--facebook">
             <a href="" class="footer__socials-link">
-              <span class="vsually-hidden">Facebook</span>
-              <svg width="13" height="20" viewBox="0 0 13 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <span class="visually-hidden">Facebook</span>
+              <svg class="footer_socials-icon footer_socials-icon--stroke footer_socials-icon--facebook" width="13" height="20" viewBox="0 0 13 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M11.5 0.833252H8.75001C7.53443 0.833252 6.36864 1.30674 5.5091 2.14957C4.64956 2.99239 4.16667 4.1355 4.16667 5.32743V8.02394H1.41667V11.6193H4.16667V18.81H7.83334V11.6193H10.5833L11.5 8.02394H7.83334V5.32743C7.83334 5.08905 7.92992 4.86042 8.10182 4.69186C8.27373 4.52329 8.50689 4.4286 8.75001 4.4286H11.5V0.833252Z" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
               </svg>
             </a>
@@ -324,9 +368,11 @@
         </ul>
         <div class="footer__copyright">
           <a class="footer__copyright-link" href="#">HTML Academy</a>
-          <svg width="27" height="34" viewBox="0 0 27 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M13.6426 0.0157537L13.5 0L0 1.40733V26.0129L13.5 34L27 26.0129V1.40733L13.6426 0.0157537ZM25.2344 25.0151L13.5 31.9573L1.76561 25.0151V14.9293L13.4507 21.8451L13.4701 23.0984L5.45351 18.3548L5.44295 19.5801L13.4894 24.3885L13.5088 25.675L5.46408 20.9174L5.45351 22.1427L13.5 26.9511L21.6239 22.1182V20.8929V16.909L25.2432 14.7595L25.2344 25.0151ZM25.2344 13.4519L22.0147 15.3319L20.5325 16.2071L13.4666 12.0201L13.456 13.2454L19.4957 16.818L19.4429 16.8495L19.3126 16.9247L18.4536 17.4166L13.4666 14.4689L13.456 15.6942L17.3921 18.0222L16.4591 18.6314L16.438 18.6436L13.4666 16.902L13.456 18.1273L15.4029 19.2615L13.4155 20.4483L1.7973 13.5762L13.4349 6.61831L25.2344 13.4519ZM25.2344 12.2266L13.4401 5.31075L1.76561 12.2196V2.9897L13.5 1.76442L25.2344 2.9897V12.2266Z"/>
-          </svg>
+          <a class="footer__copyright-icon-link" href="#">
+            <svg class="footer_copyright-icon" width="27" height="34" viewBox="0 0 27 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M13.6426 0.0157537L13.5 0L0 1.40733V26.0129L13.5 34L27 26.0129V1.40733L13.6426 0.0157537ZM25.2344 25.0151L13.5 31.9573L1.76561 25.0151V14.9293L13.4507 21.8451L13.4701 23.0984L5.45351 18.3548L5.44295 19.5801L13.4894 24.3885L13.5088 25.675L5.46408 20.9174L5.45351 22.1427L13.5 26.9511L21.6239 22.1182V20.8929V16.909L25.2432 14.7595L25.2344 25.0151ZM25.2344 13.4519L22.0147 15.3319L20.5325 16.2071L13.4666 12.0201L13.456 13.2454L19.4957 16.818L19.4429 16.8495L19.3126 16.9247L18.4536 17.4166L13.4666 14.4689L13.456 15.6942L17.3921 18.0222L16.4591 18.6314L16.438 18.6436L13.4666 16.902L13.456 18.1273L15.4029 19.2615L13.4155 20.4483L1.7973 13.5762L13.4349 6.61831L25.2344 13.4519ZM25.2344 12.2266L13.4401 5.31075L1.76561 12.2196V2.9897L13.5 1.76442L25.2344 2.9897V12.2266Z"/>
+            </svg>
+          </a>
         </div>
       </div>
     </footer>

@@ -1,0 +1,234 @@
+.additional {
+  padding-bottom: 35px;
+
+  @media (min-width: $table-width) {
+    padding-bottom: 76px;
+  }
+}
+
+.additional__title {
+  position: relative;
+  max-width: 1440px;
+  padding: 25px 16.5% 10px 20px;
+  margin: 0;
+  font-family: $second-font;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+
+  &::after {
+    position: absolute;
+    top: 40px;
+    right: 0px;
+    content: '';
+    width: 16.5%;
+    height: 2px;
+    background-color: $main-color;
+  }
+
+  @media (min-width: $table-width) {
+    padding-top: 67px;
+    padding-left: 67px;
+    padding-right: 42.6%;
+    font-size: 36px;
+    line-height: 36px;
+
+    &::after {
+      top: 88px;
+      width: 42.6%;
+    }
+
+    &::before {
+      position: absolute;
+      top: 88px;
+      left: 0px;
+      content: '';
+      width: 30px;
+      height: 2px;
+      background-color: $main-color;
+    }
+  }
+
+  @media (min-width: $desktop-width) {
+    margin: 0 auto;
+    padding-left: 110px;
+    padding-top: 75px;
+
+    &::after {
+      top: 99px;
+      width: 955px;
+    }
+
+    &::before {
+      top: 99px;
+      width: 70px;
+    }
+  }
+}
+
+.additional__wrapper {
+  @media (min-width: $desktop-width) {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 71px;
+  }
+}
+
+.additional__list {
+  margin: 0;
+  padding: 0;
+  padding-top: 25px;
+  padding-bottom: 39px;
+  list-style: none;
+
+  @media (min-width: $table-width) {
+    padding-top: 70px;
+    padding-bottom: 68px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 896px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+.additional__item {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 14px;
+  padding-bottom: 17px;
+  border-bottom: 1px solid #cdcdcd;
+
+  &:first-child {
+    border-top: 1px solid #cdcdcd;
+  }
+
+  @media (min-width: $table-width) {
+    justify-content: flex-start;
+    align-items: baseline;
+    padding-top: 25px;
+    padding-bottom: 27px;
+    padding-left: 38px;
+    padding-right: 38px;
+    border: 1px solid #cdcdcd;
+    border-top: none;
+  }
+
+  @media (min-width: 900px) {
+    border: none;
+    border-bottom: 1px solid #cdcdcd;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-left: 0;
+    padding-top: 18px;
+    padding-bottom: 13px;
+  }
+}
+
+.additional__name {
+  width: 100%;
+  margin-bottom: 12px;
+  font-family: $second-font;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+
+  @media (min-width: $table-width) {
+    width: auto;
+    font-size: 20px;
+    line-height: 20px;
+  }
+}
+
+.additional__text {
+  font-size: 14px;
+  line-height: 14px;
+
+  @media (min-width: $table-width) {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+.additional__count {
+  @media (min-width: $table-width) {
+    margin-left: auto;
+    margin-right: 23px;
+  }
+}
+
+.additional__price {
+  min-width: 70px;
+  text-align: right;
+
+  @media (min-width: 900px) {
+    margin-right: 25px;
+   }
+}
+
+.additional__button {
+  width: 100%;
+  margin-top: 15px;
+
+  @media (min-width: $table-width) {
+   margin-top: 14px;
+  }
+
+  @media (min-width: 900px) {
+    width: 244px;
+   }
+
+   @media (min-width: $desktop-width) {
+    margin-top: 0;
+  }
+}
+
+.additional__promotion {
+  padding-top: 188px;
+  padding-bottom: 41px;
+  background-image: url(../img/icon-gift.svg), url(../img/image-cat-additional.png);
+  background-repeat: no-repeat;
+  background-position: 50% 58px, 0 0;
+  background-size: auto auto, cover;
+
+  @media (min-width: $table-width) {
+    padding-top: 73px;
+    padding-bottom: 67px;
+    padding-right: 17%;
+    background-position: 12.5% 58px, 0 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 245px;
+    padding-top: 188px;
+    padding-bottom: 0;
+    padding-right: 0;
+    background-position: 50% 58px, 0 0;
+  }
+}
+
+.additional__promotion-text {
+  width: 165px;
+  margin: 0 auto;
+  color: $second-color;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+
+  @media (min-width: $table-width) {
+    margin: 0;
+    margin-left: auto;
+    text-align: left;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-left: 0;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
